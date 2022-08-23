@@ -2,7 +2,8 @@
 Very simple javascript captcha.
 
 Usage:
-<script src="js-captcha.js"></script> 
+```
+<script src="js-captcha.js"></script>
 <input id="jsCaptcha" placeholder="Enter result" required="true"/>
 <script>
   let captcha = new jsCaptcha({ el: '#jsCaptcha' });
@@ -14,3 +15,13 @@ Usage:
     captcha.reset();
   }
 </script>
+```
+
+Options:
+```
+{
+  el: 'target input element selector; default: #js-captcha',
+  font: 'captcha font name; default: Arial',
+  fontHeight: font height in px; default: 40
+}
+```
