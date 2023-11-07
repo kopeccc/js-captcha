@@ -23,5 +23,6 @@ Options:
   el: 'target input element selector; default: #js-captcha',
   font: 'captcha font name; default: Arial',
   fontHeight: font height in px; default: 40
+  fontColor: 'font color in hex format; default: #000000'
 }
 ```
